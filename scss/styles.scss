@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #8f24c9;
+$base-color: #3b5998;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -85,7 +85,7 @@ $text: #74808a;
 */
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 16px;
 
     &.active {
@@ -350,7 +350,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/nathan-anderson-95193-unsplash.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -370,10 +370,10 @@ footer {
 
     h1 {
         color: #fff;
-        font-weight: 900;
+        font-weight: 600;
         font-size: 5em;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
+        
+        
         line-height: 0.9em;
     }
 
@@ -643,7 +643,7 @@ footer {
 
 .project {
     position: relative;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
